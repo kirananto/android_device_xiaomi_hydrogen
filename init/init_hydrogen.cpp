@@ -161,10 +161,10 @@ void vendor_load_properties()
     property_set("dalvik.vm.heaptargetutilization", "0.75");
     property_set("dalvik.vm.heapminfree", heapminfree);
     property_set("dalvik.vm.heapmaxfree", heapmaxfree);
-	property_set("ro.mk.device", devicename);
+	property_set("ro.cm.device", devicename);
 	property_set("ro.product.device", devicename);
     property_set("ro.product.model", "MI MAX");
-    property_set("ro.mk.maintainer", "zhaochengw");
+    property_set("ro.cm.maintainer", " KIRAN ANTO");
     init_alarm_boot_properties();
 }
 

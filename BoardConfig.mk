@@ -97,8 +97,10 @@ TARGET_TS_MAKEUP := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-# MKHW
+# CMHW
 TARGET_TAP_TO_WAKE_NODE := "/data/tp/wakeup_mode"
+BOARD_USES_CYANOGEN_HARDWARE := true
+BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
 
 # CNE
 BOARD_USES_QCNE := true
